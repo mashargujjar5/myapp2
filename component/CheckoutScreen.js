@@ -3,6 +3,7 @@ import { View, Text, TouchableOpacity, StyleSheet, Image } from 'react-native';
 
 export default function CheckoutScreen({ navigation }) {
   return (
+    
     <View style={styles.container}>
       <Image
         source={require('../assets/adaptive-icon.png')}
