@@ -24,7 +24,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#f2f2f2',
-    paddingTop: StatusBar.currentHeight || 0, // Android status bar height
+    paddingTop: StatusBar.currentHeight || 10     , // Android status bar height
   },
   header: {
     height: 60,
